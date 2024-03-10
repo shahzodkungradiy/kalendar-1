@@ -29,6 +29,16 @@ td {
   width: min-content;
 }
 
+.div-table {
+  display: none;
+}
+
+.phone {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
 .div1 {
   text-align: center;
 }
@@ -37,15 +47,18 @@ td {
   font-size: 25px;
   margin-top: 10px;
   margin-bottom: 10px;
+  text-align: center;
 }
 .div1__1__p1 {
   color: blue;
   font-size: 25px;
   margin-bottom: 10px;
+  text-align: center;
 }
 .div1__2__h1 {
   color: red;
   font-size: 25px;
+  text-align: center;
 }
 
 .text1 {
@@ -65,7 +78,7 @@ td {
 }
 .duwa1__1 {
   font-size: 30px;
-  text-align: left;
+  text-align: center;
   margin-bottom: 10px;
 }
 .duwa1__2 {
@@ -81,6 +94,7 @@ td {
 .duwa1__4 {
   font-size: 30px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .duwa2 {
@@ -90,6 +104,7 @@ td {
 .duwa2__1 {
   font-size: 30px;
   margin-bottom: 10px;
+  text-align: center;
 }
 .duwa2__2 {
   font-size: 30px;
@@ -99,10 +114,12 @@ td {
 .duwa2__3 {
   font-size: 30px;
   margin-bottom: 10px;
+  text-align: center;
 }
 .duwa2__4 {
   font-size: 30px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 @media screen and (min-width: 1020px) {
@@ -114,6 +131,12 @@ td {
     padding: 25px;
     margin-bottom: 15px;
     font-size: 25px;
+  }
+  .phone {
+    display: none;
+  }
+  .div-table {
+    display: block;
   }
   .div1 {
     display: flex;
